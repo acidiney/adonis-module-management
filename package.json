@@ -1,0 +1,31 @@
+{
+  "name": "acidiney-fake-module-template",
+  "version": "0.0.12",
+  "description": "Template Module",
+  "main": "index.js",
+  "files": [
+    "providers",
+    "migrations",
+    "src",
+    "instructions.js",
+    "instructions.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.itgest.co.ao:itgest-ao-dev/umape/modules/simtic/template-module.git"
+  },
+  "standard": {
+    "global": [
+      "use"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@adonisjs/cli": "^4.0.12"
+  }
+}
